@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 
-export const useLS = (key, value) => {
+export const useLСS = (key, value) => {
   const [storage, setStorage] = useState(
     JSON.parse(localStorage.getItem(key)) ?? value
   );
