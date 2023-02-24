@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import React from 'react';
-
 import { nanoid } from 'nanoid';
 import css from './ContactForm.module.css';
 import { useDispatch, useSelector } from 'react-redux';
@@ -45,7 +44,7 @@ export const ContactForm = () => {
     setName('');
     setNumber('');
   };
-
+  
   const nameInputId = nanoid();
   const numberInputId = nanoid();
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import css from './ContactList.module.css';
 import { useSelector, useDispatch } from 'react-redux';
-
 import { delateContactsAction } from 'redux/contact/contact-slice';
 import { selectFilteredContacts } from 'redux/filter/filterSelector';
+
 
 function ContactList() {
   const contacts = useSelector(selectFilteredContacts);
