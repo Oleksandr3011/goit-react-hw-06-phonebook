@@ -1,0 +1,19 @@
+.filter {
+  display: block;
+  ;
+}
+
+.filterInput {
+  font-size: 18px;
+  outline: none;
+  display: block;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+
+.filterLabel {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
