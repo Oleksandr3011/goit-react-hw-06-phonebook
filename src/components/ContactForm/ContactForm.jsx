@@ -42,8 +42,8 @@ export const ContactForm = () => {
   };
 
   const handleReset = () => {
-    console.log(Object.values(actions));
-    Object.values(actions).map(item => item(''));
+    setName('');
+    setNumber('');
   };
 
   const nameInputId = nanoid();
